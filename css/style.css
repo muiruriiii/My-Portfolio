@@ -91,3 +91,8 @@ header-info h1{
     width: 100%;
     margin-top: 35px;
 }
+/*Section 2(About)*/
+#about{
+    padding: 10px 0;
+    color: #ababab;
+}
