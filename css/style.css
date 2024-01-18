@@ -157,5 +157,14 @@ header-info h1{
     color: #0F52BA;
     font-size: 14px;
 }
-
+/*Section 3(Services)*/
+#services{
+    padding: 10px 0;
+}
+.subtitle2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0F52BA;
+    text-align: center;
+}
 
