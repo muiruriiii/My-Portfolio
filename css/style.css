@@ -250,4 +250,9 @@ header-info h1{
 .contact{
     margin-top: 30px;
 }
-
+.contact-1{
+    flex-basis: 35%;
+}
+.contact-2{
+    flex-basis: 60%;
+}
