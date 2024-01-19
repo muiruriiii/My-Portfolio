@@ -246,4 +246,8 @@ header-info h1{
 .project:hover .layer{
     height: 100%;
 }
+/*Section 4(Contact)*/
+.contact{
+    margin-top: 30px;
+}
 
