@@ -23,7 +23,9 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="row">
                 <div class="header-col-1">
@@ -184,6 +186,17 @@
         }
         event.currentTarget.classList.add("active-link")
         document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidenav = document.getElementById("sidenav");
+
+    function openmenu(){
+        sidenav.style.right = "0";
+    }
+    function closemenu(){
+        sidenav.style.right = "-200px"
     }
 </script>
 </body>
