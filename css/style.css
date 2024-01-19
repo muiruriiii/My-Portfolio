@@ -304,13 +304,13 @@ form placeholder{
     font-size: 12px;
     width: 100%;
     cursor: pointer;
+    margin: 5% 0;
+    color: #ffffff;
+    padding: 10px ;
+    border-radius: 5px ;
+    border: solid black;
 }
-form btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
+
 /*Responsiveness*/
 nav .fas{
     display: none;
